@@ -1,0 +1,287 @@
+* {
+  padding: 0%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-1 {
+  background: white;
+  font-family: "Overpass", sans-serif;
+}
+
+.nav-bar {
+  height: 80vh;
+  background: #ff525d;
+  border-radius: 0 0px 0px 80px;
+  padding: 100px;
+  justify-items: center;
+}
+
+.nav-bar {
+  background-image: url(/blogr-landing-page-project/blogr-landing-page-main/images/bg-pattern-intro-desktop.svg);
+  background-position: center;
+  background-size: 2500px;
+  background-repeat: no-repeat;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav ul a {
+  text-decoration: none;
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.nav-bar-2 ul a {
+  display: inline;
+  margin-left: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.login {
+  display: block;
+  margin-left: 400px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.sign {
+  width: 120px;
+  height: 50px;
+  background: #ff7a85;
+  border-radius: 20px;
+  border: none;
+}
+
+.sign a {
+  color: white;
+  text-decoration: none;
+}
+
+.sign:hover {
+  background: white;
+}
+
+.sign:hover a {
+  color: #ff7a85;
+  text-decoration: none;
+}
+
+.login a {
+  color: white;
+  text-decoration: none;
+  gap: 30px;
+}
+
+.comment {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+.comment h1 {
+  margin-top: 100px;
+  font-size: 50px;
+  color: white;
+}
+
+.comment p {
+  color: white;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.more {
+  width: 150px;
+  height: 50px;
+  background: #ff7a85;
+  border-radius: 20px;
+  border: none;
+  border: white solid;
+  border-width: 1px;
+}
+
+.more a {
+  text-decoration: none;
+  color: white;
+}
+
+.free {
+  width: 150px;
+  height: 50px;
+  background: white;
+  border-radius: 20px;
+  border: none;
+}
+
+.free a {
+  color: #ff7a85;
+  text-decoration: none;
+}
+
+.future-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.future-1 img {
+  width: 700px;
+  padding-left: 100px;
+}
+
+.future h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.State {
+  background-image: url(/blogr-landing-page-project/blogr-landing-page-main/images/bg-pattern-circles.svg);
+  background-position: left;
+}
+
+.State {
+  background: #2c2d3f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  border-radius: 0 70px;
+}
+
+.State img {
+  padding: 20px;
+}
+
+.State h1 {
+  color: white;
+}
+
+.State p {
+  color: white;
+}
+
+.state-1 {
+  padding: 30px;
+}
+
+.simple {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.simple img {
+  width: 800px;
+  padding-left: -400px;
+}
+
+.Product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #25252d;
+  height: 40vh;
+  padding: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 0px 70px 0px 0px;
+}
+
+.product-1 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.product-1 a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.main-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 100px;
+}
+
+.main-link p {
+  font-size: 18px;
+  color: white;
+}
+
+.Company {
+  display: -ms-grid;
+  display: grid;
+}
+
+.Company a {
+  text-decoration: none;
+  color: white;
+  padding: 6px;
+}
+
+.Connect {
+  display: -ms-grid;
+  display: grid;
+}
+
+.Connect a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.css.map */

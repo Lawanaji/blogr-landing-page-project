@@ -1,0 +1,215 @@
+* {
+  padding: 0%;
+  align-items: center;
+}
+.main-1 {
+  background: rgb(255, 255, 255);
+  font-family: "Overpass", sans-serif;
+}
+.nav-bar {
+  //   width: 1350px;
+  height: 80vh;
+  background: hsl(356, 100%, 66%);
+
+  border-radius: 0 0px 0px 80px;
+  padding: 100px;
+  justify-items: center;
+}
+.nav-bar {
+  background-image: url(/blogr-landing-page-project/blogr-landing-page-main/images/bg-pattern-intro-desktop.svg);
+  //   img {
+  //     width: 100px;
+  //   }
+  background-position: center;
+  background-size: 2500px;
+  background-repeat: no-repeat;
+}
+.product {
+  display: flex;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: inline;
+}
+nav ul a {
+  text-decoration: none;
+  display: inline;
+  align-items: center;
+  //   margin-right: 40px;
+  color: #fff;
+}
+.nav-bar-2 ul a {
+  display: inline;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.login {
+  display: block;
+  margin-left: 400px;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.sign {
+  width: 120px;
+  height: 50px;
+  background: hsl(355, 100%, 74%);
+  border-radius: 20px;
+  border: none;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.sign:hover {
+  background: white;
+  a {
+    color: hsl(355, 100%, 74%);
+    text-decoration: none;
+  }
+}
+.login a {
+  color: white;
+  text-decoration: none;
+  gap: 30px;
+}
+.comment {
+  display: grid;
+  text-align: center;
+  h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    color: hsl(0, 0%, 100%);
+  }
+  p {
+    color: hsl(0, 0%, 100%);
+  }
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.more {
+  width: 150px;
+  height: 50px;
+  background: hsl(355, 100%, 74%);
+  border-radius: 20px;
+  border: none;
+  border: hsl(0, 0%, 100%) solid;
+  border-width: 1px;
+
+  a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+  }
+}
+// .more:hover {
+//   background: hsl(355, 100%, 74%);
+//   color: white;
+// }
+
+.free {
+  width: 150px;
+  height: 50px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  border: none;
+  a {
+    color: hsl(355, 100%, 74%);
+    text-decoration: none;
+  }
+}
+.future-1 {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 700px;
+    padding-left: 100px;
+  }
+}
+.future {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+.State {
+  background-image: url(/blogr-landing-page-project/blogr-landing-page-main/images/bg-pattern-circles.svg);
+  background-position: left;
+}
+.State {
+  background: hsl(237, 17%, 21%);
+  display: flex;
+  height: 60vh;
+  border-radius: 0 70px;
+  img {
+    padding: 20px;
+    // padding-left: 100px;
+  }
+  h1 {
+    color: hsl(0, 0%, 100%);
+  }
+  p {
+    color: hsl(0, 0%, 100%);
+  }
+}
+.state-1 {
+  padding: 30px;
+}
+.simple {
+  display: flex;
+  img {
+    width: 800px;
+
+    padding-left: -400px;
+  }
+}
+.Product {
+  display: flex;
+  background: hsl(240, 10%, 16%);
+  height: 40vh;
+  padding: 60px;
+  justify-content: center;
+  justify-content: space-around;
+  border-radius: 0px 70px 0px 0px;
+}
+.product-1 {
+  display: grid;
+  a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+  }
+}
+.main-link {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 100px;
+  p {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+  }
+}
+.Company {
+  display: grid;
+  a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 6px;
+  }
+}
+.Connect {
+  display: grid;
+  a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 10px;
+  }
+}
